@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.hero {
+    background-image: linear-gradient(#c847f1, #380231);
+}
+
+.top-bar {
+    padding: 20px;
+}
+
+.top-bar img {
+    width: 130px;
+}
+
+.top-button {
+    float: right;
+}
+
+.top-button a {
+
+    margin: 0 8px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #fff;
+}
+
+.login-btn {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.top-button a:hover {
+    background: #fff;
+    color: 333;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero .container {
+    margin-top: 13%;
+}
+
+.start-btn {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+
+
+/*--------contact us page-----*/
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 28px;
+    color: rgb(68, 0, 255);
+    margin: 10px;
+    margin-right: 30px;
+    ;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: gray;
+    font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*--------footer-----*/
+.footer {
+    padding: 50px 0 20px;
+    background-image: linear-gradient(#c847f1, #380231);
+    margin-top: 300px;
+    text-align: center;
+}
+
+.store-icon img {
+    width: 150px;
+    margin: 0 10px 50px;
+}
+
+.footer-menu a {
+    display: inline-block;
+    width: 120px;
+    color: #fff !important;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}

@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(#c847f1, #380231);
+}
+
+.top-bar {
+    padding: 20px;
+}
+
+.top-bar img {
+    width: 130px;
+}
+
+.top-button {
+    float: right;
+}
+
+.top-button a {
+
+    margin: 0 8px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #fff;
+}
+
+.login-btn {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.top-button a:hover {
+    background: #fff;
+    color: 333;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 12%;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/*--------Table-----*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #c200ff;
+    color: white;
+}
+
+/*--------footer-----*/
+.footer {
+    padding: 50px 0 20px;
+    background-image: linear-gradient(#c847f1, #380231);
+    margin-top: 300px;
+}
+
+.store-icon img {
+    width: 150px;
+    margin: 0 10px 50px;
+}
+
+.footer-menu a {
+    display: inline-block;
+    width: 120px;
+    color: #fff !important;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.btn-follow {
+    background: #c200ff;
+    border: none;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    margin-top: 54px;
+    margin-bottom: 14px;
+    border-radius: 50px;
+    font-size: small;
+
+}
